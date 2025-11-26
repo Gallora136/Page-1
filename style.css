@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cbc2b9;
+}
+
+.homepage {
+    background-image: url('./silk-background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px 20px;
+    z-index: -1;
+}
+
+header {
+    background-color: #69443c;
+    padding: 20px 30px;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    max-height: 150px;
+    width: auto;
+    display: block;
+}
+
+.Navigation nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 150px;
+    padding-right: 100px;
+}
+
+.Navigation nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: normal;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 108px;
+    color: black;
+    text-align: center;
+    margin: 0px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.mini-navigation {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+
+.navigate {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #69443c;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 20px 40px;
+    font-weight: normal;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.featured-collections {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.featured-collections img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
